@@ -1,7 +1,7 @@
 terms_by_type = {
    'Corporation': ['company', 'incorporated', 'corporation', 'corp.', 'corp', 'inc',
-      '& co.', '& co', 'inc.', 's.p.a.', 'n.v.', 'a.g.', 'ag', 'nuf', 's.a.', 's.f.',
-      'oao', 'co.', 'co'
+      '& co.', '& co', 'and co', 'and company', 'c-corp', 'b-corp', 'inc.', 's.p.a.', 'n.v.', 'a.g.', 'ag', 'nuf', 's.a.', 's.f.',
+      'oao', 'co.', 'co',  'dba', 'pc', 'cic', 
    ],
    'General Partnership': ['soc.col.', 'stg', 'd.n.o.', 'ltda.', 'v.o.s.', 'a spol.',
       u've\xc5\x99. obch. spol.', 'kgaa', 'o.e.', 's.f.', 's.n.c.', 's.a.p.a.', 'j.t.d.',
@@ -26,6 +26,10 @@ terms_by_type = {
       'a/s', 'p/s', 'sae', 'sasu', 'eurl', 'ae', 'cpt', 'as', 'ab', 'asa', 'ooo', 'dat',
       'vat', 'zat', 'mchj', 'a.d.'
    ],
+      'Non-Profit Organization': ['cbo', 'ingo', 'tso', 'npo', 'vo', 'cso', 'go', 'smo', 'pvo', 
+      'sho', 'nsa', 'bingo', 'engo', 'dongo', 'gongo', 'gso', 'ingo', 'mango', 'ngdo', 'nngo', 'pango',
+      'pvdo', 'quango', 'sbo', 'sco', 'sngo', 'tango', 'tngo', 'youngo'
+   ],
    'Limited Liability Limited Partnership': ['lllp', 'l.l.l.p.'],
    'Limited Liability Partnership': ['llp', 'l.l.p.', 'sp.p.', 's.c.a.', 's.c.s.'],
    'Limited Partnership': ['gmbh & co. kg', 'lp', 'l.p.', 's.c.s.',
@@ -43,6 +47,8 @@ terms_by_type = {
       'fie', 'ij', 'fop', 'xt'
    ]
 }
+
+
 
 terms_by_country = {
    'Albania': ['sh.a.', 'sh.p.k.'],
